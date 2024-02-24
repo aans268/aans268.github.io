@@ -49,15 +49,4 @@ main section {
     background-color: #222;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    display: none; /* sections cachées par défaut */
-}
-
-footer {
-    background-color: #0a0a0a;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+    box-shadow: 0 0 10px rgba(0, 0, 
