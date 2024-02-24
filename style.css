@@ -2,19 +2,18 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #0a0a0a;
-    color: #ddd;
+    background-color: #000;
+    color: #fff;
 }
 
-header, nav, main, footer {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+header {
+    text-align: center;
     padding: 20px;
 }
 
 header h1 {
-    text-align: center;
+    cursor: pointer;
+    font-size: 28px;
     color: #39ff14; /* vert fluo */
     text-shadow: 0 0 5px #39ff14; /* effet de texte lumineux */
 }
@@ -26,8 +25,23 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+nav ul li button {
+    background-color: transparent;
+    border: 1px solid #39ff14; /* vert fluo */
+    color: #39ff14; /* vert fluo */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+nav ul li button:hover {
+    background-color: #39ff14; /* vert fluo */
+    color: #000;
 }
 
 main section {
@@ -46,12 +60,4 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-
-a {
-    color: #39ff14; /* vert fluo pour les liens */
-}
-
-a:hover {
-    color: #ff0000; /* rouge lors du survol */
 }
