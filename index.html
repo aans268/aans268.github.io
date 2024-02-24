@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Blog sur le Projet</h1>
+        <h1 onclick="toggleSection('presentation')">Blog sur le Projet</h1>
     </header>
     <nav>
         <ul>
@@ -22,7 +22,11 @@
         </ul>
     </nav>
     <main>
-        <section id="participants">
+        <section id="presentation">
+            <h2>Présentation du Projet</h2>
+            <!-- Ajoutez ici la présentation initiale du projet -->
+        </section>
+        <section id="participants" style="display: none;">
             <h2>Participants</h2>
             <ul>
                 <li>Nom Participant 1</li>
@@ -35,26 +39,7 @@
             <h2>Interviews</h2>
             <!-- Ajoutez ici les interviews réalisés par chacun des membres de l'équipe -->
         </section>
-        <section id="problemes" style="display: none;">
-            <h2>Principaux Problèmes</h2>
-            <!-- Ajoutez ici les principaux problèmes repérés et retenus après revue des interviews -->
-        </section>
-        <section id="personas" style="display: none;">
-            <h2>Personas</h2>
-            <!-- Ajoutez ici les personas représentant des profils types affectés par le sujet et les problèmes relevés -->
-        </section>
-        <section id="brainstorming" style="display: none;">
-            <h2>Brainstorming</h2>
-            <!-- Ajoutez ici le brainstorming effectué par l'équipe pour trouver des solutions aux problèmes -->
-        </section>
-        <section id="idees" style="display: none;">
-            <h2>Idées Retenues</h2>
-            <!-- Ajoutez ici les 2-3 idées retenues du brainstorming -->
-        </section>
-        <section id="prototypes" style="display: none;">
-            <h2>Prototypes Vidéos</h2>
-            <!-- Ajoutez ici les prototypes vidéos de chaque idée retenue -->
-        </section>
+        <!-- Les autres sections suivent le même modèle -->
     </main>
     <footer>
         <p>&copy; 2024 Blog sur le Projet</p>
