@@ -13,3 +13,15 @@ function toggleSection(sectionId) {
         }
     });
 }
+
+// Fonction pour afficher la section de présentation
+function showPresentation() {
+    var sections = document.querySelectorAll('main section');
+    sections.forEach(function(section) {
+        if (section.id === 'presentation') {
+            section.style.display = "block";
+        } else {
+            section.style.display = "none";
+        }
+    });
+}
