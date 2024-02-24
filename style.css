@@ -50,4 +50,16 @@ main section {
     background-color: #222;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* ombre portée */
+}
+
+/* Ajout d'une classe active pour les boutons sélectionnés */
+nav ul li button.active {
+    background-color: #39ff14; /* vert fluo */
+    color: #000;
+}
+
+/* Masquage des sections non actives */
+main section:not(.active) {
+    display: none;
+}
