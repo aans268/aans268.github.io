@@ -27,4 +27,4 @@ function showPresentation() {
 }
 
 // Afficher la page de présentation par défaut lors du chargement du site
-showPresentation();
+//showPresentation();
