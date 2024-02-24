@@ -6,15 +6,7 @@ function toggleSection(sectionId) {
     } else {
         section.style.display = "none";
     }
-    
-    var sections = document.querySelectorAll('main section');
-    sections.forEach(function(sec) {
-        if (sec.id !== sectionId && sec.style.display === "block") {
-            sec.style.display = "none";
-        }
-    });
 }
-
 
 // Fonction pour afficher la section de présentation et masquer les autres
 function showPresentation() {
