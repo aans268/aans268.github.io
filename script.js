@@ -5,8 +5,17 @@ function toggleSection(sectionId) {
         section.style.display = "block";
     } else {
         section.style.display = "none";
+        return; // Ajout de cette ligne pour empêcher de cacher la section si elle est déjà visible
     }
+    
+    var sections = document.querySelectorAll('main section');
+    sections.forEach(function(sec) {
+        if (sec.id !== sectionId && sec.style.display === "block") {
+            sec.style.display = "none";
+        }
+    });
 }
+
 
 // Fonction pour afficher la section de présentation et masquer les autres
 function showPresentation() {
