@@ -80,6 +80,20 @@
             <h2>Prototypes Vidéos</h2>
             <!-- Ajoutez ici les prototypes vidéos de chaque idée retenue -->
         </section>
+        <section id="pb_projet" style="display: none;">
+            <h2>Problèmes rencontrés</h2>
+                <div id="pb_projet_txt">
+
+                </div>
+        </section>
+        <script>
+            fetch('txt/pb_projet.txt')
+                .then(response => response.text())
+                .then(texte => {
+                    document.getElementById('pb_projet_txt').innerText = texte;
+                })
+                .catch(error => console.error('Erreur lors du chargement du fichier :', error));
+        </script>
         <!-- Ajoutez les autres sections ici -->
     </main>
     <footer>
