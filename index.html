@@ -64,28 +64,33 @@
             <h2>Problèmes</h2>
             <!-- Ajoutez ici les principaux problèmes repérés et retenus après revue des interviews -->
         </section>
+
         <section id="personas" style="display: none;">
             <h2>Personas</h2>
-            <!-- Ajoutez ici les personas représentant des profils types affectés par le sujet et les problèmes relevés -->
+            <div id="personas"></div>
         </section>
+
         <section id="brainstorming" style="display: none;">
             <h2>Brainstorming</h2>
             <!-- Ajoutez ici le brainstorming effectué par l'équipe pour trouver des solutions aux problèmes -->
         </section>
+
         <section id="idees" style="display: none;">
             <h2>Idées Retenues</h2>
-            <!-- Ajoutez ici les 2-3 idées retenues du brainstorming -->
+            <div id="idees_txt"></div> 
         </section>
+
         <section id="prototypes" style="display: none;">
             <h2>Prototypes Vidéos</h2>
             <!-- Ajoutez ici les prototypes vidéos de chaque idée retenue -->
         </section>
+
         <section id="pb_projet" style="display: none;">
             <h2>Problèmes rencontrés</h2>
-                <div id="pb_projet_txt">
-
-                </div>
+                <div id="pb_projet_txt"></div>
         </section>
+
+
         <script>
             fetch('txt/pb_projet.txt')
                 .then(response => response.text())
@@ -94,6 +99,25 @@
                 })
                 .catch(error => console.error('Erreur lors du chargement du fichier :', error));
         </script>
+
+        <script>
+            fetch('txt/idees.txt')
+                .then(response => response.text())
+                .then(texte => {
+                    document.getElementById('idees_txt').innerText = texte;
+                })
+                .catch(error => console.error('Erreur lors du chargement du fichier :', error));
+        </script>
+
+        <script>
+            fetch('txt/persona.txt')
+                .then(response => response.text())
+                .then(texte => {
+                    document.getElementById('personas').innerText = texte;
+                })
+                .catch(error => console.error('Erreur lors du chargement du fichier :', error));
+        </script>
+        
         <!-- Ajoutez les autres sections ici -->
     </main>
     <footer>

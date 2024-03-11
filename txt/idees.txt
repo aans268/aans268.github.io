@@ -1,0 +1,13 @@
+Idées retenues :
+
+  - SportBot : Idée finale sélectionnée, un robot permettant de pratiquer divers sports avec et contre des connaissances à distance par robots interposés. 
+
+
+  - Terrain mobile : un terrain de sport pouvant se déplacer de lui-même, on pourrait lui commander de venir près de chez nous plutôt que d'avoir à se déplacer.
+ 
+
+  - Terrain moderne : des terrains avec un système de dynamos/autre technologie permettant de récupérer l'énergie dépensée par les athlètes pour la réutiliser, ou encore équipés
+                      d'imprimantes 3D capables d'imprimer du matériel de sport sur place mais aussi de réparer le terrain s'il est accidenté.
+
+
+  - Salle du sport : Une salle spéciale, dans laquelle on pourrait contrôler pression, température, topologie... pour pouvoir s'entrainer dans toutes les conditions possibles.

@@ -1,0 +1,7 @@
+Persona : 
+
+  - Novice qui cherche à apprendre [ Mathéo, 20 ans, veut commencer la salle mais n'y connaît rien. ] [Hugo, 14 ans, aimerai découvrir de nouveaux sport à pratiquer ]
+
+  - Expert intéressé par la compétition [ Yvette, 42 ans, tenniswoman professionnelle, recherche des adversaires compétents pour s'entraîner. ]
+
+  - Personne recherchant des profils similaires au sien pour faire des rencontres [ Gérard, 56 ans, sportif du dimanche, cherche à reprendre une activité sportive pour se remettre en forme. ]
