@@ -70,7 +70,7 @@
 
         <section id="personas" style="display: none;">
             <h2>Personas</h2>
-            <div id="personas"></div>
+            <div id="persona"></div>
         </section>
 
         <section id="brainstorming" style="display: none;">
@@ -89,14 +89,8 @@
         </section>
 
         <section id="pb_projet" style="display: none;">
-            <h2>Problèmes rencontrés</h2>
-<<<<<<< HEAD
+            <h2>Difficultés rencontrées</h2>
                 <div id="pb_projet_txt"></div>
-=======
-                <div id="pb_projet_txt">
-                    test
-                </div>
->>>>>>> 91fd361916b9c1c898326774e625643e8eb6f819
         </section>
 
 
@@ -122,7 +116,7 @@
             fetch('txt/persona.txt')
                 .then(response => response.text())
                 .then(texte => {
-                    document.getElementById('personas').innerText = texte;
+                    document.getElementById('persona').innerText = texte;
                 })
                 .catch(error => console.error('Erreur lors du chargement du fichier :', error));
         </script>
