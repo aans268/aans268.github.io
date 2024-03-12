@@ -16,6 +16,7 @@ header h1 {
     font-size: 28px;
     color: #39ff14; /* vert fluo */
     text-shadow: 0 0 5px #39ff14; /* effet de texte lumineux */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav ul {
