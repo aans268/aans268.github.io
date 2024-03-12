@@ -1,12 +1,14 @@
 Ce projet consiste à créer une application qui répond à des besoins/problèmes d'utilisateurs sur un sujet en particulier.
-
 Le thème sur lequel nous avons choisi de réaliser notre projet est le sport.
+
+
 
 Nous avons réalisés ce projet en différentes étapes distinctes visibles sur les onglets de la barre latérale. Ces étapes sont elles-mêmes compris en 3 plus grandes phases : 
 
--Découvrir et comprendre l'utilisateur (Interview, Identification des problèmes, Personas )
 
--Invention (Brainstorming, Idées retenues)
+  -Découvrir et comprendre l'utilisateur (Interview, Identification des problèmes, Personas )
 
--Design (Sketch, Prototypes vidéos)
+  -Invention (Brainstorming, Idées retenues)
+
+  -Design (Sketch, Prototypes vidéos)
 
