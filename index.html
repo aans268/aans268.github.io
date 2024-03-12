@@ -27,7 +27,7 @@
     <main>
         <section id="presentation">
             <h2>Présentation du Projet</h2>
-            <div id="presentation"></div>
+            <div id="presentationp"></div>
         </section>
         <section id="participants" style="display: none;">
             <h2>Participants</h2>
@@ -128,7 +128,7 @@
         fetch('txt/Presentation.txt')
             .then(response => response.text())
             .then(texte => {
-                document.getElementById('presentation').innerText = texte;
+                document.getElementById('presentationp').innerText = texte;
             })
             .catch(error => console.error('Erreur lors du chargement du fichier :', error));
     </script>

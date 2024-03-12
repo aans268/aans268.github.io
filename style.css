@@ -73,11 +73,6 @@ main section:not(.active) {
     margin-bottom: 40px;
 }
 
-#interviews h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #39ff14; /* vert fluo */
-}
 
 #interviews ul {
     padding: 0;
@@ -90,13 +85,11 @@ main section:not(.active) {
 
 #interviews ul li h3 {
     margin-bottom: 5px;
-    color: #39ff14; /* vert fluo */
 }
 
 #interviews ul li button {
     background-color: transparent;
-    border: 1px solid #39ff14; /* vert fluo */
-    color: #39ff14; /* vert fluo */
+    border: 1px solid white; /* vert fluo */
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
@@ -104,7 +97,7 @@ main section:not(.active) {
 }
 
 #interviews ul li button:hover {
-    background-color: #39ff14; /* vert fluo */
+    background-color: lightgray; /* vert fluo */
     color: #000;
 }
 
@@ -119,11 +112,6 @@ main section:not(.active) {
     margin-bottom: 40px;
 }
 
-#participants h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #39ff14; /* vert fluo */
-}
 
 #participants ul {
     padding: 0;
@@ -132,6 +120,5 @@ main section:not(.active) {
 
 #participants ul li {
     margin-bottom: 10px;
-    color: #39ff14; /* vert fluo */
 }
 
