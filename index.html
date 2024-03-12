@@ -69,9 +69,55 @@
             <div id="problematique"></div>
         </section>
 
-        <section id="personas" style="display: none;">
+        <section id="personas">
             <h2>Personas</h2>
-            <div id="persona"></div>
+            <div>
+                <p>
+                    D'après l'analyse des données, voici quelques Personas identifiés :
+                </p>
+                
+                <div>
+                    <!-- Profil Novice -->
+                    <div>
+                        <img src="doc/garcon.png" alt="Image Garçon">
+                        <p>
+                            <strong>Novice qui cherche à apprendre/découvrir</strong>
+                            <br>
+                            Mathéo, 20 ans, veut commencer la salle mais n'y connaît rien et a peur de commencer seul.
+                        </p>
+                    </div>
+                    
+                    <!-- Profil Novice -->
+                    <div>
+                        <img src="doc/ado.png" alt="Image Ado">
+                        <p>
+                            <strong>Novice qui cherche à apprendre/découvrir</strong>
+                            <br>
+                            Hugo, 14 ans, très curieux et débordant d'énergie, aimerait découvrir de nouveaux sports à pratiquer.
+                        </p>
+                    </div>
+                    
+                    <!-- Profil Expert -->
+                    <div>
+                        <img src="doc/femme.png" alt="Image Femme">
+                        <p>
+                            <strong>Expert intéressé par la compétition</strong>
+                            <br>
+                            Yvette, 42 ans, tenniswoman professionnelle, recherche des adversaires compétents pour s'entraîner.
+                        </p>
+                    </div>
+                    
+                    <!-- Profil Personne recherchant des profils similaires -->
+                    <div>
+                        <img src="doc/vieux.png" alt="Image Vieux">
+                        <p>
+                            <strong>Personne recherchant des profils similaires au sien pour faire des rencontres ou s'amuser</strong>
+                            <br>
+                            Gérard, 56 ans, sportif du dimanche, cherche à reprendre une activité sportive pour se remettre en forme.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id="brainstorming" style="text-align: center;">
@@ -129,14 +175,7 @@
                 .catch(error => console.error('Erreur lors du chargement du fichier :', error));
         </script>
 
-        <script>
-            fetch('txt/persona.txt')
-                .then(response => response.text())
-                .then(texte => {
-                    document.getElementById('persona').innerText = texte;
-                })
-                .catch(error => console.error('Erreur lors du chargement du fichier :', error));
-        </script>
+        
 
     <script>
         fetch('txt/Presentation.txt')
