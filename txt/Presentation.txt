@@ -1,0 +1,8 @@
+Le projet consiste à réfléchir à une application de cartes qui répond à des besoins/problèmes qu'on peut avoir lors d'une organisation d'un match de sport.
+
+Pour connaître les utilisateurs, on a d'abord fait de l'introspection et des interviews pour collecter des informations.
+A partir de ces informations on a réussi à trouver les problèmes principaux, et on a réfléchi à des personas qui pourraient être intéressant à l'application.
+
+Dans un second temps on a fait un brainstorming pour donner des idées qui pourraient résoudre les problèmes trouvés, puis en faisant une diagramme d'affinité on a donné des prototypes d'application qui pourraient répondre aux besoins des utilisateurs.
+
+Pour finir, en choisissant l'un des prototypes proposés, on a créé des vidéos prototypes qui réalisent des scénarios possibles avec l'application.

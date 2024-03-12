@@ -27,7 +27,7 @@
     <main>
         <section id="presentation">
             <h2>Présentation du Projet</h2>
-            <!-- Ajoutez ici la présentation initiale du projet -->
+            <div id="presentation"></div>
         </section>
         <section id="participants" style="display: none;">
             <h2>Participants</h2>
@@ -65,7 +65,7 @@
         
         <section id="problemes" style="display: none;">
             <h2>Problèmes</h2>
-            <!-- Ajoutez ici les principaux problèmes repérés et retenus après revue des interviews -->
+            <div id="problematique"></div>
         </section>
 
         <section id="personas" style="display: none;">
@@ -93,6 +93,10 @@
                 <div id="pb_projet_txt"></div>
         </section>
 
+
+
+
+
         <script>
             fetch('txt/pb_projet.txt')
                 .then(response => response.text())
@@ -119,7 +123,27 @@
                 })
                 .catch(error => console.error('Erreur lors du chargement du fichier :', error));
         </script>
+
+    <script>
+        fetch('txt/Presentation.txt')
+            .then(response => response.text())
+            .then(texte => {
+                document.getElementById('presentation').innerText = texte;
+            })
+            .catch(error => console.error('Erreur lors du chargement du fichier :', error));
+    </script>
+
+    <script>
+        fetch('txt/Problematique.txt')
+            .then(response => response.text())
+            .then(texte => {
+                document.getElementById('problematique').innerText = texte;
+            })
+            .catch(error => console.error('Erreur lors du chargement du fichier :', error));
+    </script>
         
+
+
         <!-- Ajoutez les autres sections ici -->
     </main>
     <footer>
