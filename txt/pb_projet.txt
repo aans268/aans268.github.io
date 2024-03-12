@@ -1,16 +1,19 @@
-Principaux problèmes recontrés lors des différentes phases du projet:
+Voici les principaux problèmes rencontrés lors de la réalisation du projet par phases:
+
+ - Choix du sujet initial :
+    > Parmi les idées trouvées lors du brainstorming, en séléctionner une étant en rapport avec le sujet initial du projet et qui puisse être intéressante à développer.
+    
 
  - Interviews : 
-    + leurs réalisations dans un laps de temps court
-    + en faire ressortir des points intéressants
-    + ne pas trop guider les questions/réponses 
+    > Le laps de temps pour réaliser les interviews était court
+    > Réussir à en faire sortir des points intéressants, obtenir des anecdotes des personnes interviewées
+    > Ne pas trop guider les questions/réponses 
  
 
  - Brainstorming :
-    + ne pas proposer des solutions à des problèmes que nous avons nous-mêmes identifiés
-    + ne pas se limiter avec des contraintes de faisabilité
+    > Ne pas proposer des solutions à des problèmes que nous avons nous-mêmes identifiés
+    > Ne pas se limiter dans les idées à cause des contraintes de faisabilité
 
 
- - Choix du sujet :
-    + parmi les idées trouvées lors du brainstorming, en séléctionner une étant en rapport avec le sujet initial du projet et qui puisse être intéressante à développer.
-    
+ - Idées Retenues :
+    >Pas une réelle difficulté mais nous avons dû écarter certaines idées (bien qu'elles soient intéressantes) car elles ne répondaient pas aux problématiques identifées

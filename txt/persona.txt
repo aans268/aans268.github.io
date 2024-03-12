@@ -1,7 +1,8 @@
-Persona : 
+D'après l'analyse des donnés, voici quelques Personas identifiés : 
 
-  - Novice qui cherche à apprendre [ Mathéo, 20 ans, veut commencer la salle mais n'y connaît rien. ] [Hugo, 14 ans, aimerai découvrir de nouveaux sport à pratiquer ]
+  - Novice qui cherche à apprendre/découvrir [ Mathéo, 20 ans, veut commencer la salle mais n'y connaît rien et a peur de commencer seul. ]
+                                             [Hugo, 14 ans, très curieux et débordant d'énergie, aimerait découvrir de nouveaux sports à pratiquer ]
 
   - Expert intéressé par la compétition [ Yvette, 42 ans, tenniswoman professionnelle, recherche des adversaires compétents pour s'entraîner. ]
 
-  - Personne recherchant des profils similaires au sien pour faire des rencontres [ Gérard, 56 ans, sportif du dimanche, cherche à reprendre une activité sportive pour se remettre en forme. ]
+  - Personne recherchant des profils similaires au sien pour faire des rencontres ou s'amuser [ Gérard, 56 ans, sportif du dimanche, cherche à reprendre une activité sportive pour se remettre en forme. ]

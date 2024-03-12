@@ -1,6 +1,6 @@
-Idées retenues :
+Voici les idées retenues à l'issue du brainstorming:
 
-  - SportBot : Idée finale sélectionnée, un robot permettant de pratiquer divers sports avec et contre des connaissances à distance par robots interposés. 
+  - SportBot (Idée finale sélectionnée): Un robot permettant de pratiquer divers sports avec et contre d'autres personnes à distance par robots interposés. 
 
 
   - Terrain mobile : un terrain de sport pouvant se déplacer de lui-même, on pourrait lui commander de venir près de chez nous plutôt que d'avoir à se déplacer.
@@ -10,4 +10,4 @@ Idées retenues :
                       d'imprimantes 3D capables d'imprimer du matériel de sport sur place mais aussi de réparer le terrain s'il est accidenté.
 
 
-  - Salle du sport : Une salle spéciale, dans laquelle on pourrait contrôler pression, température, topologie... pour pouvoir s'entrainer dans toutes les conditions possibles.
+  - Salle neo-sport : Une salle spéciale, dans laquelle on pourrait contrôler pression, température, topologie... pour pouvoir s'entrainer dans toutes les conditions possibles.
